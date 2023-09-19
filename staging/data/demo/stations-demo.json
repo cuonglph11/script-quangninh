@@ -1,0 +1,3882 @@
+[
+    {
+        "_id": "5ffd48bd670c241e9e0466b5",
+        "key": "MT4_N_PT",
+        "name": "Ngã ba sông Vàm Nao và sông Tiền",
+        "calculateType": "WQI",
+        "address": "Huyện Phú Tân, An Giang, Việt Nam",
+        "note": null,
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 10.57484,
+            "lng": 105.366
+        },
+        "position": null,
+        "measuringList": [
+            {
+                "_id": "626b6e5d055504e41ab6dfd4",
+                "key": "Temp",
+                "name": "Temp",
+                "unit": "oC",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfd5",
+                "key": "pH",
+                "name": "pH",
+                "unit": "",
+                "minLimit": 6,
+                "maxLimit": 8.5,
+                "minTend": 6.5,
+                "maxTend": 8,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfd6",
+                "key": "DO",
+                "name": "DO",
+                "unit": "mg/l",
+                "maxLimit": 5,
+                "maxTend": null,
+                "minLimit": null,
+                "minTend": 7,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfd7",
+                "key": "TDS",
+                "name": "TDS",
+                "unit": "",
+                "maxLimit": null,
+                "maxTend": 19,
+                "minLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfd8",
+                "key": "COD",
+                "name": "COD",
+                "unit": "mg/l",
+                "minTend": null,
+                "maxLimit": 15,
+                "maxTend": 9,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfd9",
+                "key": "BOD",
+                "name": "BOD",
+                "unit": "mg/l",
+                "maxLimit": 6,
+                "maxTend": 3,
+                "minLimit": null,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfda",
+                "key": "Nitrate",
+                "name": "Nitrat",
+                "unit": "mg/L",
+                "maxLimit": 5,
+                "maxTend": 1.5,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfdb",
+                "key": "Phosphat",
+                "name": "Phosphat",
+                "unit": "mg/l",
+                "maxLimit": null,
+                "maxTend": 0.08,
+                "minLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfdc",
+                "key": "Amoni",
+                "name": "Amoni",
+                "unit": "mg/l",
+                "maxLimit": 0.3,
+                "maxTend": 0.25,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfdd",
+                "key": "Coliform",
+                "name": "Coliform",
+                "unit": "mpn/100ml",
+                "maxLimit": 5000,
+                "maxTend": 2400,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfde",
+                "key": "Turbidity",
+                "name": "Turbidity - Độ đục",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfdf",
+                "key": "NO3_N",
+                "name": "NO3_N",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe0",
+                "key": "NO2_N",
+                "name": "NO2_N",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe1",
+                "key": "NH3_N",
+                "name": "NH3-N",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe2",
+                "key": "SS",
+                "name": "SS",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe3",
+                "key": "Cl_",
+                "name": "Cl_",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe4",
+                "key": "Fe",
+                "name": "Fe",
+                "unit": "mg/l",
+                "maxLimit": 1,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe5",
+                "key": "PO43_",
+                "name": "PO43-",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe6",
+                "key": "F_",
+                "name": "F_",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe7",
+                "key": "Hg",
+                "name": "Hg",
+                "unit": "mg/l",
+                "maxLimit": 0.001,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe8",
+                "key": "As",
+                "name": "As",
+                "unit": "mg/l",
+                "maxLimit": 0.02,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfe9",
+                "key": "Cu",
+                "name": "Cu",
+                "unit": "mg/l",
+                "maxLimit": 0.2,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfea",
+                "key": "Zn",
+                "name": "Zn",
+                "unit": "mg/l",
+                "maxLimit": 1,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfeb",
+                "key": "Cr_3",
+                "name": "Cr+3",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfec",
+                "key": "Cr6",
+                "name": "Cr6+",
+                "unit": "mg/l",
+                "maxLimit": 0.02,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfed",
+                "key": "Ni",
+                "name": "Ni",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfee",
+                "key": "Pb",
+                "name": "Pb",
+                "unit": "mg/l",
+                "maxLimit": 0.02,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfef",
+                "key": "Cd",
+                "name": "Cd",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dff0",
+                "key": "Phenol",
+                "name": "Phenol",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dff1",
+                "key": "xyanua",
+                "name": "xyanua",
+                "unit": "mg/l",
+                "maxLimit": 0.05,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dff2",
+                "key": "Dieldrin",
+                "name": "Dieldrin",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dff3",
+                "key": "Aldrin",
+                "name": "Aldrin",
+                "unit": "ug/m3",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dff4",
+                "key": "Heptachlor_Heptachlorepoxide",
+                "name": "Heptachlor & Heptachlorepoxide",
+                "unit": "µg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dff5",
+                "key": "DDTs",
+                "name": "DDTs",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dff6",
+                "key": "Cr",
+                "name": "Cr",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            }
+        ],
+        "active": false,
+        "lastLog": {
+            "receivedAt": "2022-09-07T06:37:18.000Z",
+            "measuringLogs": {
+                "Temp": {
+                    "key": "Temp",
+                    "value": 30,
+                    "textValue": "30"
+                },
+                "pH": {
+                    "key": "pH",
+                    "value": 7,
+                    "textValue": "7"
+                }
+            }
+        },
+        "stationTypeId": "5ff66e3b256391001b8cdc40",
+        "qcvnId": "5f4e09229cef930011dc0be5",
+        "createdAt": "2021-01-04T23:43:46.283Z",
+        "updatedAt": "2021-01-04T23:43:46.283Z",
+        "provinceId": "623a9e7164d693001cde2e89",
+        "website": null,
+        "yearOperate": null,
+        "userResponsible": null,
+        "userSupervisor": null,
+        "phoneResponsible": null,
+        "phoneSupervisor": null,
+        "irrigationArea": null,
+        "purposeUsed": null,
+        "lakeCapacity": null,
+        "catchmentArea": null,
+        "qcvn": {
+            "_id": "5f4e09229cef930011dc0be5",
+            "key": "QCVN 08-MT:2015/BTNMT ",
+            "name": "Quy chuẩn về chất lượng nước mặt",
+            "measuringList": [
+                {
+                    "unit": "",
+                    "maxLimit": 8.5,
+                    "minLimit": 6,
+                    "name": "pH",
+                    "key": "pH",
+                    "rowKey": "pH"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 6,
+                    "minLimit": null,
+                    "name": "BOD",
+                    "key": "BOD",
+                    "rowKey": "BOD"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 15,
+                    "name": "COD",
+                    "key": "COD",
+                    "rowKey": "COD"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 5,
+                    "minLimit": null,
+                    "name": "DO",
+                    "key": "DO",
+                    "rowKey": "DO"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 100,
+                    "name": "TSS",
+                    "key": "TSS",
+                    "rowKey": "TSS"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.3,
+                    "name": "Amoni",
+                    "key": "Amoni",
+                    "rowKey": "Amoni"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 5,
+                    "name": "Nitrat",
+                    "key": "Nitrate",
+                    "rowKey": "Nitrate"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.2,
+                    "name": "Photphates",
+                    "key": "Photphates",
+                    "rowKey": "Photphates"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.05,
+                    "name": "xyanua",
+                    "key": "xyanua",
+                    "rowKey": "xyanua"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "As",
+                    "key": "As",
+                    "rowKey": "As"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "Pb",
+                    "key": "Pb",
+                    "rowKey": "Pb"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "Cr6+",
+                    "key": "Cr6",
+                    "rowKey": "Cr6"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.2,
+                    "name": "Cu",
+                    "key": "Cu",
+                    "rowKey": "Cu"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 1,
+                    "name": "Zn",
+                    "key": "Zn",
+                    "rowKey": "Zn"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.001,
+                    "name": "Hg",
+                    "key": "Hg",
+                    "rowKey": "Hg"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 1,
+                    "name": "Fe",
+                    "key": "Fe",
+                    "rowKey": "Fe"
+                },
+                {
+                    "unit": "",
+                    "name": "TOC",
+                    "key": "TOC",
+                    "rowKey": "TOC"
+                },
+                {
+                    "unit": "mpn/100ml",
+                    "maxLimit": 5000,
+                    "name": "Coliform",
+                    "key": "Coliform",
+                    "rowKey": "Coliform"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 50,
+                    "name": "Ecoli",
+                    "key": "Ecoli",
+                    "rowKey": "Ecoli"
+                }
+            ],
+            "begin": "2016-03-01T02:25:59.601Z",
+            "expired": null,
+            "createdAt": "2020-09-01T08:41:06.107Z",
+            "updatedAt": "2022-09-12T07:29:33.686Z"
+        },
+        "stationType": {
+            "_id": "5ff66e3b256391001b8cdc40",
+            "key": "Nuoc_mat",
+            "name": "Nước mặt",
+            "isAuto": false,
+            "updatedAt": "2022-11-10T07:12:45.168Z",
+            "createdAt": "2021-01-07T02:13:15.093Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/nuoc mat.png",
+            "color": "#9b9b9b",
+            "numericalOrder": 12
+        },
+        "province": {
+            "_id": "623a9e7164d693001cde2e89",
+            "key": "33",
+            "name": "Tỉnh Hòa Bình",
+            "numericalOrder": 100,
+            "updatedAt": "2023-07-06T07:09:18.139Z",
+            "createdAt": "2022-03-23T04:13:37.211Z"
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "5ffd48bd670c24351c0466b7",
+        "key": "MT6_N_CM",
+        "name": "Cuối cù lao Giêng",
+        "calculateType": "WQI",
+        "address": "Huyện Chợ Mới, An Giang, Việt Nam",
+        "note": null,
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 10.427931,
+            "lng": 105.571742
+        },
+        "position": null,
+        "measuringList": [
+            {
+                "_id": "626b6e5d055504e41ab6e01f",
+                "key": "Temp",
+                "name": "Temp",
+                "unit": "oC"
+            },
+            {
+                "_id": "626b6e5d055504e41ab6e020",
+                "key": "pH",
+                "name": "pH",
+                "unit": "",
+                "minLimit": 6,
+                "maxLimit": 8.5,
+                "minTend": 6.5,
+                "maxTend": 8
+            },
+            {
+                "_id": "626b6e5d055504e41ab6e021",
+                "key": "DO",
+                "name": "DO",
+                "unit": "mg/l",
+                "minLimit": 6,
+                "maxTend": null,
+                "minTend": 7
+            },
+            {
+                "_id": "626b6e5d055504e41ab6e022",
+                "key": "TSS",
+                "name": "TSS",
+                "unit": "mg/l",
+                "maxLimit": 20,
+                "maxTend": 19
+            },
+            {
+                "_id": "626b6e5d055504e41ab6e023",
+                "key": "COD",
+                "name": "COD",
+                "unit": "mg/l",
+                "maxLimit": 10,
+                "maxTend": 9
+            },
+            {
+                "_id": "626b6e5d055504e41ab6e024",
+                "key": "BOD",
+                "name": "BOD",
+                "unit": "mg/l",
+                "maxLimit": 4,
+                "maxTend": 3.5
+            },
+            {
+                "_id": "626b6e5d055504e41ab6e025",
+                "key": "Nitrate",
+                "name": "Nitrat",
+                "unit": "mg/L",
+                "maxLimit": 2,
+                "maxTend": 1.5
+            },
+            {
+                "_id": "626b6e5d055504e41ab6e026",
+                "key": "Phosphat",
+                "name": "Phosphat",
+                "unit": "mg/l",
+                "maxLimit": 0.1,
+                "maxTend": 0.08
+            },
+            {
+                "_id": "626b6e5d055504e41ab6e027",
+                "key": "Amoni",
+                "name": "Amoni",
+                "unit": "mg/l",
+                "maxLimit": 0.3,
+                "maxTend": 0.25
+            },
+            {
+                "_id": "626b6e5d055504e41ab6e028",
+                "key": "Coliform",
+                "name": "Coliform",
+                "unit": "mpn/100ml",
+                "maxLimit": 2500,
+                "maxTend": 2400
+            }
+        ],
+        "active": false,
+        "lastLog": {
+            "measuringLogs": {
+                "Temp": {
+                    "unit": "oC",
+                    "value": 30.2
+                },
+                "pH": {
+                    "unit": "",
+                    "value": 7.14
+                },
+                "DO": {
+                    "unit": "mg/l",
+                    "value": 5.26
+                },
+                "TSS": {
+                    "unit": "mg/l",
+                    "value": 51
+                },
+                "COD": {
+                    "unit": "mg/l",
+                    "value": 14
+                },
+                "BOD": {
+                    "unit": "mg/l",
+                    "value": 9
+                },
+                "Nitrate": {
+                    "unit": "mg/L",
+                    "value": 0.066
+                },
+                "Phosphat": {
+                    "unit": "mg/l",
+                    "value": null
+                },
+                "Amoni": {
+                    "unit": "mg/l",
+                    "value": 0.044
+                },
+                "Coliform": {
+                    "unit": "mpn/100ml",
+                    "value": 23000
+                }
+            },
+            "receivedAt": "2024-03-01T03:00:00.000Z"
+        },
+        "stationTypeId": "5ff66e3b256391001b8cdc40",
+        "qcvnId": null,
+        "createdAt": "2021-01-04T23:43:46.283Z",
+        "updatedAt": "2021-01-04T23:43:46.283Z",
+        "provinceId": "623a9e7164d693001cde2e89",
+        "website": null,
+        "yearOperate": null,
+        "userResponsible": null,
+        "userSupervisor": null,
+        "phoneResponsible": null,
+        "phoneSupervisor": null,
+        "irrigationArea": null,
+        "purposeUsed": null,
+        "lakeCapacity": null,
+        "catchmentArea": null,
+        "stationType": {
+            "_id": "5ff66e3b256391001b8cdc40",
+            "key": "Nuoc_mat",
+            "name": "Nước mặt",
+            "isAuto": false,
+            "updatedAt": "2022-11-10T07:12:45.168Z",
+            "createdAt": "2021-01-07T02:13:15.093Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/nuoc mat.png",
+            "color": "#9b9b9b",
+            "numericalOrder": 12
+        },
+        "province": {
+            "_id": "623a9e7164d693001cde2e89",
+            "key": "33",
+            "name": "Tỉnh Hòa Bình",
+            "numericalOrder": 100,
+            "updatedAt": "2023-07-06T07:09:18.139Z",
+            "createdAt": "2022-03-23T04:13:37.211Z"
+        },
+        "status": "EXCEED"
+    },
+    {
+        "_id": "5ffd48bd670c246d420466b3",
+        "key": "MT2_N_TC",
+        "name": "Đầu sông Cái Vừng và sông Tiền",
+        "calculateType": "WQI",
+        "address": "Thị xã Tân Châu, An Giang, Việt Nam",
+        "note": null,
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 10.794227,
+            "lng": 105.262697
+        },
+        "position": null,
+        "measuringList": [
+            {
+                "_id": "626b6e5d055504e41ab6dfbe",
+                "key": "Temp",
+                "name": "Temp",
+                "unit": "oC",
+                "minLimit": null,
+                "minTend": null
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfbf",
+                "key": "pH",
+                "name": "pH",
+                "unit": "",
+                "minLimit": 6,
+                "maxLimit": 8.5,
+                "minTend": 6.5,
+                "maxTend": 8
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfc0",
+                "key": "DO",
+                "name": "DO",
+                "unit": "mg/l",
+                "minLimit": 6,
+                "minTend": 7
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfc1",
+                "key": "TSS",
+                "name": "TSS",
+                "unit": "mg/l",
+                "maxLimit": 20,
+                "maxTend": 19
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfc2",
+                "key": "COD",
+                "name": "COD",
+                "unit": "mg/l",
+                "maxLimit": 10,
+                "maxTend": 9
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfc3",
+                "key": "BOD",
+                "name": "BOD",
+                "unit": "mg/l",
+                "maxLimit": 4,
+                "maxTend": 3.5
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfc4",
+                "key": "Nitrate",
+                "name": "Nitrat",
+                "unit": "mg/L",
+                "maxLimit": 2,
+                "maxTend": 1.5
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfc5",
+                "key": "Phosphat",
+                "name": "Phosphat",
+                "unit": "mg/l",
+                "maxLimit": 0.1,
+                "maxTend": 0.08
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfc6",
+                "key": "Amoni",
+                "name": "Amoni",
+                "unit": "mg/l",
+                "maxLimit": 0.3,
+                "maxTend": 0.25
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfc7",
+                "key": "Coliform",
+                "name": "Coliform",
+                "unit": "mpn/100ml",
+                "maxTend": 2400,
+                "maxLimit": 2500
+            }
+        ],
+        "active": true,
+        "lastLog": {
+            "receivedAt": "2023-02-15T02:16:33.595Z",
+            "measuringLogs": {
+                "Temp": {
+                    "key": "Temp",
+                    "value": 20,
+                    "textValue": "20"
+                }
+            }
+        },
+        "stationTypeId": "5ff66e3b256391001b8cdc40",
+        "qcvnId": null,
+        "createdAt": "2021-01-04T23:43:46.283Z",
+        "updatedAt": "2021-01-04T23:43:46.283Z",
+        "provinceId": "623a9e7164d693001cde2e89",
+        "website": null,
+        "yearOperate": null,
+        "userResponsible": null,
+        "userSupervisor": null,
+        "phoneResponsible": null,
+        "phoneSupervisor": null,
+        "irrigationArea": null,
+        "purposeUsed": null,
+        "lakeCapacity": null,
+        "catchmentArea": null,
+        "stationType": {
+            "_id": "5ff66e3b256391001b8cdc40",
+            "key": "Nuoc_mat",
+            "name": "Nước mặt",
+            "isAuto": false,
+            "updatedAt": "2022-11-10T07:12:45.168Z",
+            "createdAt": "2021-01-07T02:13:15.093Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/nuoc mat.png",
+            "color": "#9b9b9b",
+            "numericalOrder": 12
+        },
+        "province": {
+            "_id": "623a9e7164d693001cde2e89",
+            "key": "33",
+            "name": "Tỉnh Hòa Bình",
+            "numericalOrder": 100,
+            "updatedAt": "2023-07-06T07:09:18.139Z",
+            "createdAt": "2022-03-23T04:13:37.211Z"
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "5ffd48bd670c24be9c0466b4",
+        "key": "MT3_N_PT",
+        "name": "Cuối sông Cái Vừng và sông Tiền",
+        "calculateType": "WQI",
+        "address": "Huyện Phú Tân, An Giang, Việt Nam",
+        "note": null,
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 10.717681,
+            "lng": 105.348328
+        },
+        "position": null,
+        "measuringList": [
+            {
+                "_id": "626b6e5d055504e41ab6dfc9",
+                "key": "Temp",
+                "name": "Temp",
+                "unit": "oC",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfca",
+                "key": "pH",
+                "name": "pH",
+                "unit": "",
+                "minLimit": 6,
+                "maxLimit": 8.5,
+                "minTend": 6.5,
+                "maxTend": 8,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfcb",
+                "key": "DO",
+                "name": "DO",
+                "unit": "mg/l",
+                "minLimit": null,
+                "minTend": 7,
+                "maxLimit": 5,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfcc",
+                "key": "TSS",
+                "name": "TSS",
+                "unit": "mg/l",
+                "maxLimit": 100,
+                "maxTend": 19,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfcd",
+                "key": "COD",
+                "name": "COD",
+                "unit": "mg/l",
+                "maxLimit": 15,
+                "maxTend": 9,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfce",
+                "key": "BOD",
+                "name": "BOD",
+                "unit": "mg/l",
+                "maxLimit": 6,
+                "maxTend": 3.5,
+                "minLimit": null,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfcf",
+                "key": "Nitrate",
+                "name": "Nitrat",
+                "unit": "mg/L",
+                "maxLimit": 5,
+                "maxTend": 1.5,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfd0",
+                "key": "Phosphat",
+                "name": "Phosphat",
+                "unit": "mg/l",
+                "maxLimit": null,
+                "maxTend": 0.08,
+                "minLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfd1",
+                "key": "Amoni",
+                "name": "Amoni",
+                "unit": "mg/l",
+                "maxLimit": 0.3,
+                "maxTend": 0.25,
+                "isApplyQCVN": true
+            },
+            {
+                "_id": "626b6e5d055504e41ab6dfd2",
+                "key": "Coliform",
+                "name": "Coliform",
+                "unit": "mpn/100ml",
+                "maxLimit": 5000,
+                "maxTend": 2400,
+                "isApplyQCVN": true
+            }
+        ],
+        "active": false,
+        "lastLog": {
+            "measuringLogs": {
+                "Temp": {
+                    "unit": "oC",
+                    "value": 28.4,
+                    "textValue": "28.4"
+                },
+                "pH": {
+                    "unit": "",
+                    "value": 6.6,
+                    "textValue": "6.6"
+                },
+                "DO": {
+                    "unit": "mg/l",
+                    "value": 1.3,
+                    "textValue": "1.3"
+                },
+                "COD": {
+                    "unit": "mg/l",
+                    "value": 16,
+                    "textValue": "16"
+                },
+                "BOD": {
+                    "unit": "mg/l",
+                    "value": 8,
+                    "textValue": "8"
+                },
+                "Coliform": {
+                    "unit": "mpn/100ml",
+                    "value": 2300,
+                    "textValue": "2300"
+                },
+                "Nitrate": {
+                    "unit": "mg/l",
+                    "value": null,
+                    "textValue": "-"
+                }
+            },
+            "receivedAt": "2022-08-03T01:00:00.000Z"
+        },
+        "stationTypeId": "5ff66e3b256391001b8cdc40",
+        "qcvnId": "5f4e09229cef930011dc0be5",
+        "createdAt": "2021-01-04T23:43:46.283Z",
+        "updatedAt": "2021-01-04T23:43:46.283Z",
+        "provinceId": "623aaaf264d693001cde3206",
+        "website": null,
+        "yearOperate": null,
+        "userResponsible": null,
+        "userSupervisor": null,
+        "phoneResponsible": null,
+        "phoneSupervisor": null,
+        "irrigationArea": null,
+        "purposeUsed": null,
+        "lakeCapacity": null,
+        "catchmentArea": null,
+        "qcvn": {
+            "_id": "5f4e09229cef930011dc0be5",
+            "key": "QCVN 08-MT:2015/BTNMT ",
+            "name": "Quy chuẩn về chất lượng nước mặt",
+            "measuringList": [
+                {
+                    "unit": "",
+                    "maxLimit": 8.5,
+                    "minLimit": 6,
+                    "name": "pH",
+                    "key": "pH",
+                    "rowKey": "pH"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 6,
+                    "minLimit": null,
+                    "name": "BOD",
+                    "key": "BOD",
+                    "rowKey": "BOD"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 15,
+                    "name": "COD",
+                    "key": "COD",
+                    "rowKey": "COD"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 5,
+                    "minLimit": null,
+                    "name": "DO",
+                    "key": "DO",
+                    "rowKey": "DO"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 100,
+                    "name": "TSS",
+                    "key": "TSS",
+                    "rowKey": "TSS"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.3,
+                    "name": "Amoni",
+                    "key": "Amoni",
+                    "rowKey": "Amoni"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 5,
+                    "name": "Nitrat",
+                    "key": "Nitrate",
+                    "rowKey": "Nitrate"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.2,
+                    "name": "Photphates",
+                    "key": "Photphates",
+                    "rowKey": "Photphates"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.05,
+                    "name": "xyanua",
+                    "key": "xyanua",
+                    "rowKey": "xyanua"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "As",
+                    "key": "As",
+                    "rowKey": "As"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "Pb",
+                    "key": "Pb",
+                    "rowKey": "Pb"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "Cr6+",
+                    "key": "Cr6",
+                    "rowKey": "Cr6"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.2,
+                    "name": "Cu",
+                    "key": "Cu",
+                    "rowKey": "Cu"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 1,
+                    "name": "Zn",
+                    "key": "Zn",
+                    "rowKey": "Zn"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.001,
+                    "name": "Hg",
+                    "key": "Hg",
+                    "rowKey": "Hg"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 1,
+                    "name": "Fe",
+                    "key": "Fe",
+                    "rowKey": "Fe"
+                },
+                {
+                    "unit": "",
+                    "name": "TOC",
+                    "key": "TOC",
+                    "rowKey": "TOC"
+                },
+                {
+                    "unit": "mpn/100ml",
+                    "maxLimit": 5000,
+                    "name": "Coliform",
+                    "key": "Coliform",
+                    "rowKey": "Coliform"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 50,
+                    "name": "Ecoli",
+                    "key": "Ecoli",
+                    "rowKey": "Ecoli"
+                }
+            ],
+            "begin": "2016-03-01T02:25:59.601Z",
+            "expired": null,
+            "createdAt": "2020-09-01T08:41:06.107Z",
+            "updatedAt": "2022-09-12T07:29:33.686Z"
+        },
+        "stationType": {
+            "_id": "5ff66e3b256391001b8cdc40",
+            "key": "Nuoc_mat",
+            "name": "Nước mặt",
+            "isAuto": false,
+            "updatedAt": "2022-11-10T07:12:45.168Z",
+            "createdAt": "2021-01-07T02:13:15.093Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/nuoc mat.png",
+            "color": "#9b9b9b",
+            "numericalOrder": 12
+        },
+        "province": {
+            "_id": "623aaaf264d693001cde3206",
+            "key": "111",
+            "name": "Tỉnh Thái Nguyên",
+            "numericalOrder": 100,
+            "updatedAt": "2023-07-06T07:09:32.844Z",
+            "createdAt": "2022-03-23T05:06:58.967Z"
+        },
+        "status": "EXCEED"
+    },
+    {
+        "_id": "625d3e58d96a5aa9076b1ce3",
+        "key": "1804",
+        "name": "Hồ Đá Đen",
+        "address": "Bà Rịa - Vũng Tàu, Việt Nam",
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 10.618833,
+            "lng": 107.171665
+        },
+        "measuringList": [
+            {
+                "key": "Cr6",
+                "name": "Cr6+",
+                "unit": "mg/l",
+                "maxLimit": 0.02,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "pH",
+                "name": "pH",
+                "unit": "",
+                "minLimit": 6,
+                "maxLimit": 8.5,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "COD",
+                "name": "COD",
+                "unit": "mg/l",
+                "maxLimit": 15,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "Temp",
+                "name": "Temp",
+                "unit": "oC",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "DO",
+                "name": "DO",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": 5,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "EC",
+                "name": "EC",
+                "unit": "uS/cm",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "Zn",
+                "name": "Zn",
+                "unit": "mg/l",
+                "maxLimit": 1,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "Cd",
+                "name": "Cd",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "Cr",
+                "name": "Cr",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "TDS",
+                "name": "TDS",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "NaCl",
+                "name": "NaCl",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "NO3_N",
+                "name": "NO3_N",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "NO2_N",
+                "name": "NO2_N",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "NH3_N",
+                "name": "NH3-N",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "SS",
+                "name": "SS",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "Coliform",
+                "name": "Coliform",
+                "unit": "mpn/100ml",
+                "maxLimit": 5000,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "Cl_",
+                "name": "Cl_",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "Fe",
+                "name": "Fe",
+                "unit": "mg/l",
+                "maxLimit": 1,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "PO43_",
+                "name": "PO43-",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "Hg",
+                "name": "Hg",
+                "unit": "mg/l",
+                "maxLimit": 0.001,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "As",
+                "name": "As",
+                "unit": "mg/l",
+                "maxLimit": 0.02,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "Cu",
+                "name": "Cu",
+                "unit": "mg/l",
+                "maxLimit": 0.2,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "BOD",
+                "name": "BOD",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": 6,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "Cr_3",
+                "name": "Cr+3",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "Ni",
+                "name": "Ni",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "Pb",
+                "name": "Pb",
+                "unit": "mg/l",
+                "maxLimit": 0.02,
+                "isApplyQCVN": true
+            },
+            {
+                "key": "Turbidity",
+                "name": "Turbidity - Độ đục",
+                "unit": "",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            },
+            {
+                "key": "DDTs",
+                "name": "DDTs",
+                "unit": "mg/l",
+                "minLimit": null,
+                "maxLimit": null,
+                "isApplyQCVN": false
+            }
+        ],
+        "active": false,
+        "lastLog": {
+            "measuringLogs": {
+                "Temp": {
+                    "unit": "oC",
+                    "value": 27.4,
+                    "textValue": "27.4"
+                },
+                "pH": {
+                    "unit": "",
+                    "value": 6.5,
+                    "textValue": "6.5"
+                },
+                "DO": {
+                    "unit": "mg/l",
+                    "value": 2.1,
+                    "textValue": "2.1"
+                },
+                "EC": {
+                    "unit": "uS/cm",
+                    "value": 234,
+                    "textValue": "234"
+                },
+                "TDS": {
+                    "unit": "",
+                    "value": 118,
+                    "textValue": "118"
+                },
+                "NaCl": {
+                    "unit": "mg/l",
+                    "value": 0.011,
+                    "textValue": "0.011"
+                },
+                "Turbidity": {
+                    "unit": "",
+                    "value": 38,
+                    "textValue": "38"
+                },
+                "NO3_N": {
+                    "unit": "mg/l",
+                    "value": 2.5,
+                    "textValue": "2.5"
+                },
+                "NO2_N": {
+                    "unit": "mg/l",
+                    "value": 0.164,
+                    "textValue": "0.164"
+                },
+                "NH3_N": {
+                    "unit": "mg/l",
+                    "value": 1.94,
+                    "textValue": "1.94"
+                },
+                "SS": {
+                    "unit": "mg/l",
+                    "value": 21,
+                    "textValue": "21"
+                },
+                "COD": {
+                    "unit": "mg/l",
+                    "value": 12,
+                    "textValue": "12"
+                },
+                "BOD": {
+                    "unit": "mg/l",
+                    "value": 6,
+                    "textValue": "6"
+                },
+                "Coliform": {
+                    "unit": "mpn/100ml",
+                    "value": 2100,
+                    "textValue": "2100"
+                },
+                "Cl_": {
+                    "unit": "mg/l",
+                    "value": 18.9,
+                    "textValue": "18.9"
+                },
+                "Fe": {
+                    "unit": "mg/l",
+                    "value": 0.88,
+                    "textValue": "0.88"
+                },
+                "PO43_": {
+                    "unit": "mg/L",
+                    "value": 0.059399999999999994,
+                    "textValue": "<0.06"
+                },
+                "F_": {
+                    "unit": "",
+                    "value": 0.03,
+                    "textValue": "0.03"
+                },
+                "Hg": {
+                    "unit": "mg/l",
+                    "value": 0.00029699999999999996,
+                    "textValue": "<0.0003"
+                },
+                "As": {
+                    "unit": "mg/l",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "Cu": {
+                    "unit": "mg/l",
+                    "value": 0.029699999999999997,
+                    "textValue": "<0.03"
+                },
+                "Zn": {
+                    "unit": "mg/l",
+                    "value": 0.01,
+                    "textValue": "0.01"
+                },
+                "Cr_3": {
+                    "unit": "",
+                    "value": 0.008,
+                    "textValue": "0.008"
+                },
+                "Cr6": {
+                    "unit": "mg/l",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "Ni": {
+                    "unit": "",
+                    "value": 0.03,
+                    "textValue": "0.03"
+                },
+                "Pb": {
+                    "unit": "mg/l",
+                    "value": 0.0026,
+                    "textValue": "0.0026"
+                },
+                "Cd": {
+                    "unit": "mg/l",
+                    "value": 0.00009900000000000001,
+                    "textValue": "<0.0001"
+                },
+                "Nitrate": {
+                    "unit": "mg/l",
+                    "value": 0.00099,
+                    "textValue": "<0.001"
+                },
+                "Phenol": {
+                    "unit": "mg/l",
+                    "value": 0.004,
+                    "textValue": "0.004"
+                },
+                "xyanua": {
+                    "unit": "mg/l",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "Dieldrin": {
+                    "unit": "µg/l",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "Aldrin": {
+                    "unit": "µg/l",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "Heptachlor_Heptachlorepoxide": {
+                    "unit": "µg/l",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "DDTs": {
+                    "unit": "µg/l",
+                    "value": null,
+                    "textValue": ""
+                }
+            },
+            "receivedAt": "2022-08-03T01:00:00.000Z"
+        },
+        "stationTypeId": "5ff66e3b256391001b8cdc40",
+        "qcvnId": "5f4e09229cef930011dc0be5",
+        "yearOperate": 2021,
+        "userResponsible": "Cuong Le",
+        "userSupervisor": "Phan Thanh Tung",
+        "phoneResponsible": {
+            "format": "+..-..-....-...",
+            "dialCode": "84",
+            "phoneNumber": "+84-90-7506-242",
+            "priority": 0,
+            "iso2": "vn",
+            "name": "Vietnam (Việt Nam)",
+            "phoneString": "0907506242"
+        },
+        "qcvn": {
+            "_id": "5f4e09229cef930011dc0be5",
+            "key": "QCVN 08-MT:2015/BTNMT ",
+            "name": "Quy chuẩn về chất lượng nước mặt",
+            "measuringList": [
+                {
+                    "unit": "",
+                    "maxLimit": 8.5,
+                    "minLimit": 6,
+                    "name": "pH",
+                    "key": "pH",
+                    "rowKey": "pH"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 6,
+                    "minLimit": null,
+                    "name": "BOD",
+                    "key": "BOD",
+                    "rowKey": "BOD"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 15,
+                    "name": "COD",
+                    "key": "COD",
+                    "rowKey": "COD"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 5,
+                    "minLimit": null,
+                    "name": "DO",
+                    "key": "DO",
+                    "rowKey": "DO"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 100,
+                    "name": "TSS",
+                    "key": "TSS",
+                    "rowKey": "TSS"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.3,
+                    "name": "Amoni",
+                    "key": "Amoni",
+                    "rowKey": "Amoni"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 5,
+                    "name": "Nitrat",
+                    "key": "Nitrate",
+                    "rowKey": "Nitrate"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.2,
+                    "name": "Photphates",
+                    "key": "Photphates",
+                    "rowKey": "Photphates"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.05,
+                    "name": "xyanua",
+                    "key": "xyanua",
+                    "rowKey": "xyanua"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "As",
+                    "key": "As",
+                    "rowKey": "As"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "Pb",
+                    "key": "Pb",
+                    "rowKey": "Pb"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "Cr6+",
+                    "key": "Cr6",
+                    "rowKey": "Cr6"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.2,
+                    "name": "Cu",
+                    "key": "Cu",
+                    "rowKey": "Cu"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 1,
+                    "name": "Zn",
+                    "key": "Zn",
+                    "rowKey": "Zn"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.001,
+                    "name": "Hg",
+                    "key": "Hg",
+                    "rowKey": "Hg"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 1,
+                    "name": "Fe",
+                    "key": "Fe",
+                    "rowKey": "Fe"
+                },
+                {
+                    "unit": "",
+                    "name": "TOC",
+                    "key": "TOC",
+                    "rowKey": "TOC"
+                },
+                {
+                    "unit": "mpn/100ml",
+                    "maxLimit": 5000,
+                    "name": "Coliform",
+                    "key": "Coliform",
+                    "rowKey": "Coliform"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 50,
+                    "name": "Ecoli",
+                    "key": "Ecoli",
+                    "rowKey": "Ecoli"
+                }
+            ],
+            "begin": "2016-03-01T02:25:59.601Z",
+            "expired": null,
+            "createdAt": "2020-09-01T08:41:06.107Z",
+            "updatedAt": "2022-09-12T07:29:33.686Z"
+        },
+        "stationType": {
+            "_id": "5ff66e3b256391001b8cdc40",
+            "key": "Nuoc_mat",
+            "name": "Nước mặt",
+            "isAuto": false,
+            "updatedAt": "2022-11-10T07:12:45.168Z",
+            "createdAt": "2021-01-07T02:13:15.093Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/nuoc mat.png",
+            "color": "#9b9b9b",
+            "numericalOrder": 12
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "625e2bc5d96a5a20046b1ce8",
+        "key": "CN4",
+        "name": "Công ty Orion",
+        "address": "KCN Mỹ Phước II, Bình Dương, Việt Nam",
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 11.131389,
+            "lng": 106.633056
+        },
+        "measuringList": [
+            {
+                "key": "Temp",
+                "name": "Temp",
+                "unit": "oC"
+            },
+            {
+                "key": "ISO2",
+                "name": "SO2",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "ICO",
+                "name": "ICO",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "INO2",
+                "name": "INO2",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "IO3",
+                "name": "O3",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "IPM10",
+                "name": "PM10",
+                "unit": "ug/m3"
+            }
+        ],
+        "active": true,
+        "lastLog": {
+            "receivedAt": "2023-09-11T09:38:02.058Z",
+            "measuringLogs": {
+                "Temp": {
+                    "key": "Temp",
+                    "value": 4,
+                    "textValue": "4"
+                },
+                "ISO2": {
+                    "key": "ISO2",
+                    "value": 2,
+                    "textValue": "2"
+                },
+                "ICO": {
+                    "key": "ICO",
+                    "value": 5,
+                    "textValue": "5"
+                },
+                "INO2": {
+                    "key": "INO2",
+                    "value": 6,
+                    "textValue": "6"
+                },
+                "IO3": {
+                    "key": "IO3",
+                    "value": 4,
+                    "textValue": "4"
+                },
+                "IPM10": {
+                    "key": "IPM10",
+                    "value": 7,
+                    "textValue": "7"
+                }
+            }
+        },
+        "stationTypeId": "5ffd49d55290b4001b60fee1",
+        "yearOperate": 2022,
+        "userResponsible": "Le Pham Huy Cuong",
+        "userSupervisor": "Phan Thanh Tung",
+        "stationType": {
+            "_id": "5ffd49d55290b4001b60fee1",
+            "key": "khong_khi",
+            "name": "Không khí xung quanh",
+            "isAuto": false,
+            "updatedAt": "2022-07-11T07:00:33.291Z",
+            "createdAt": "2021-01-12T07:03:49.856Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/khong khi.png",
+            "color": "#87d068",
+            "numericalOrder": 100
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "625e2c3ed96a5a84366b1ce9",
+        "key": "NT1",
+        "name": "Nông trường cao su Thanh An",
+        "address": "Binh Duong, Viet Nam",
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 11.217033,
+            "lng": 106.4175
+        },
+        "measuringList": [
+            {
+                "key": "Temp",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Temp",
+                "unit": "oC"
+            },
+            {
+                "key": "ISO2",
+                "isApplyQCVN": true,
+                "maxLimit": 350,
+                "name": "SO2",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "ICO",
+                "isApplyQCVN": true,
+                "maxLimit": 30000,
+                "name": "ICO",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "INO2",
+                "isApplyQCVN": true,
+                "maxLimit": 200,
+                "name": "INO2",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "IO3",
+                "isApplyQCVN": true,
+                "maxLimit": 200,
+                "name": "O3",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "IPM10",
+                "isApplyQCVN": true,
+                "maxLimit": 150,
+                "name": "PM10",
+                "unit": "ug/m3"
+            }
+        ],
+        "active": true,
+        "lastLog": {
+            "measuringLogs": {
+                "Temp": {
+                    "unit": "oC",
+                    "value": 32.6,
+                    "textValue": "32.6"
+                },
+                "ISO2": {
+                    "unit": "ug/m3",
+                    "value": 9.9,
+                    "textValue": "<10"
+                },
+                "ICO": {
+                    "unit": "ug/m3",
+                    "value": 2.475,
+                    "textValue": "<2.500"
+                },
+                "INO2": {
+                    "unit": "ug/m3",
+                    "value": 7,
+                    "textValue": "7"
+                },
+                "IO3": {
+                    "unit": "ug/m3",
+                    "value": 10.3,
+                    "textValue": "10.3"
+                },
+                "IPM10": {
+                    "unit": "ug/m3",
+                    "value": null,
+                    "textValue": ""
+                }
+            },
+            "receivedAt": "2022-08-04T07:00:00.000Z"
+        },
+        "stationTypeId": "5ffd49d55290b4001b60fee1",
+        "qcvnId": "5f4e14669cef930011dc0c2c",
+        "yearOperate": 2020,
+        "userResponsible": "Le Pham Huy Cuong",
+        "userSupervisor": "Phan Thanh Tung",
+        "phoneResponsible": {
+            "format": "+..-..-....-...",
+            "dialCode": "84",
+            "phoneNumber": "+84-90-7506-242",
+            "priority": 0,
+            "iso2": "vn",
+            "name": "Vietnam (Việt Nam)",
+            "phoneString": "0907506242"
+        },
+        "phoneSupervisor": {
+            "format": "+..-..-....-...",
+            "dialCode": "84",
+            "phoneNumber": "+84-90-7506-242",
+            "priority": 0,
+            "iso2": "vn",
+            "name": "Vietnam (Việt Nam)",
+            "phoneString": "0907506242"
+        },
+        "qcvn": {
+            "_id": "5f4e14669cef930011dc0c2c",
+            "key": "QCVN 05:2013/BTNMT",
+            "name": "Quy chuẩn về chất lượng không khí",
+            "measuringList": [
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 350,
+                    "name": "SO2",
+                    "key": "ISO2",
+                    "rowKey": "ISO2"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 30000,
+                    "name": "ICO",
+                    "key": "ICO",
+                    "rowKey": "ICO"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 200,
+                    "name": "INO2",
+                    "key": "INO2",
+                    "rowKey": "INO2"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 200,
+                    "name": "O3",
+                    "key": "IO3",
+                    "rowKey": "IO3"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 300,
+                    "name": "Tổng bụi lơ lửng",
+                    "key": "ITSP",
+                    "rowKey": "ITSP"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 150,
+                    "name": "PM2_5",
+                    "key": "IPM2",
+                    "rowKey": "IPM2"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 150,
+                    "name": "PM10",
+                    "key": "IPM10",
+                    "rowKey": "IPM10"
+                },
+                {
+                    "rowKey": "COD",
+                    "key": "COD",
+                    "name": "COD",
+                    "unit": "mg/l"
+                }
+            ],
+            "begin": "2013-10-25T10:16:02.144Z",
+            "expired": null,
+            "createdAt": "2020-09-01T09:29:10.856Z",
+            "updatedAt": "2022-09-12T09:03:48.150Z"
+        },
+        "stationType": {
+            "_id": "5ffd49d55290b4001b60fee1",
+            "key": "khong_khi",
+            "name": "Không khí xung quanh",
+            "isAuto": false,
+            "updatedAt": "2022-07-11T07:00:33.291Z",
+            "createdAt": "2021-01-12T07:03:49.856Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/khong khi.png",
+            "color": "#87d068",
+            "numericalOrder": 100
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "625e2e7bd96a5a24e16b1ceb",
+        "key": "BD2104T",
+        "name": "KCN VISIP II",
+        "address": "Binh Duong, Viet Nam",
+        "isUsed": false,
+        "mapLocation": {
+            "lat": 11.127666666666666,
+            "lng": 106.71591666666667
+        },
+        "measuringList": [
+            {
+                "key": "pH",
+                "name": "pH",
+                "unit": ""
+            },
+            {
+                "key": "COD",
+                "name": "COD",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Temp",
+                "name": "Temp",
+                "unit": "oC"
+            },
+            {
+                "key": "DO",
+                "name": "DO",
+                "unit": "mg/l"
+            },
+            {
+                "key": "EC",
+                "name": "EC",
+                "unit": "uS/cm"
+            },
+            {
+                "key": "Phenol",
+                "name": "Phenol",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Zn",
+                "name": "Zn",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cd",
+                "name": "Cd",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cr",
+                "name": "Cr",
+                "unit": "mg/l"
+            },
+            {
+                "key": "TDS",
+                "name": "TDS",
+                "unit": ""
+            },
+            {
+                "key": "NO3_N",
+                "name": "NO3_N",
+                "unit": "mg/l"
+            },
+            {
+                "key": "NO2_N",
+                "name": "NO2_N",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Coliform",
+                "name": "Coliform",
+                "unit": "mpn/100ml"
+            },
+            {
+                "key": "Cl_",
+                "name": "Cl_",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Fe",
+                "name": "Fe",
+                "unit": "mg/l"
+            },
+            {
+                "key": "PO43_",
+                "name": "PO43-",
+                "unit": ""
+            },
+            {
+                "key": "F_",
+                "name": "F_",
+                "unit": ""
+            },
+            {
+                "key": "Hg",
+                "name": "Hg",
+                "unit": "mg/l"
+            },
+            {
+                "key": "As",
+                "name": "As",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cu",
+                "name": "Cu",
+                "unit": "mg/l"
+            },
+            {
+                "key": "BOD",
+                "name": "BOD",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cr6",
+                "name": "Cr6+",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Ni",
+                "name": "Ni",
+                "unit": ""
+            },
+            {
+                "key": "Pb",
+                "name": "Pb",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Color",
+                "name": "Color",
+                "unit": "PT-Co"
+            }
+        ],
+        "active": true,
+        "lastLog": {
+            "receivedAt": "2022-08-04T08:16:30.933Z",
+            "measuringLogs": {
+                "pH": {
+                    "key": "pH",
+                    "value": 5.8,
+                    "textValue": "5.8"
+                },
+                "COD": {
+                    "key": "COD",
+                    "value": 56,
+                    "textValue": "56"
+                },
+                "DO": {
+                    "key": "DO",
+                    "value": 3.9,
+                    "textValue": "3.9"
+                },
+                "EC": {
+                    "key": "EC",
+                    "value": 1.16,
+                    "textValue": "1.16"
+                },
+                "Phenol": {
+                    "key": "Phenol",
+                    "value": 0.059399999999999994,
+                    "textValue": "<0.06"
+                },
+                "Zn": {
+                    "key": "Zn",
+                    "value": 0.15,
+                    "textValue": "0.15"
+                },
+                "Cd": {
+                    "key": "Cd",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "Cr": {
+                    "key": "Cr",
+                    "value": 0.00594,
+                    "textValue": "<0.006"
+                },
+                "TDS": {
+                    "key": "TDS",
+                    "value": 13.6,
+                    "textValue": "13.6"
+                },
+                "NO3_N": {
+                    "key": "NO3_N",
+                    "value": 0.2,
+                    "textValue": "0.2"
+                },
+                "NO2_N": {
+                    "key": "NO2_N",
+                    "value": 0.002,
+                    "textValue": "0.002"
+                },
+                "Coliform": {
+                    "key": "Coliform",
+                    "value": 0.99,
+                    "textValue": "<1"
+                },
+                "Cl_": {
+                    "key": "Cl_",
+                    "value": 17.8,
+                    "textValue": "17.8"
+                },
+                "Fe": {
+                    "key": "Fe",
+                    "value": 0.42,
+                    "textValue": "0.42"
+                },
+                "PO43_": {
+                    "key": "PO43_",
+                    "value": 0.009899999999999999,
+                    "textValue": "<0.01"
+                },
+                "Hg": {
+                    "key": "Hg",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "As": {
+                    "key": "As",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "Cu": {
+                    "key": "Cu",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "Pb": {
+                    "key": "Pb",
+                    "value": 0.0007920000000000001,
+                    "textValue": "<0.0008"
+                },
+                "Color": {
+                    "key": "Color",
+                    "value": 1.98,
+                    "textValue": "<2"
+                }
+            }
+        },
+        "stationTypeId": "621c92fc2f6ecb001c7eeee4",
+        "yearOperate": 2020,
+        "userResponsible": "Cuong Le",
+        "userSupervisor": "Phan Thanh Tung",
+        "stationType": {
+            "_id": "621c92fc2f6ecb001c7eeee4",
+            "key": "TRAM_DINH_KY",
+            "name": "Nước dưới đất",
+            "isAuto": false,
+            "updatedAt": "2022-10-24T08:18:20.842Z",
+            "createdAt": "2022-02-28T09:16:44.323Z",
+            "__v": 0,
+            "icon": "",
+            "color": "#8877dd",
+            "numericalOrder": 100
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "625e2f68d96a5a601d6b1cec",
+        "key": "BD25",
+        "name": "Bãi rác Nam Bình Dương",
+        "address": "Binh Duong, Viet Nam",
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 11.204083333333333,
+            "lng": 106.76752777777779
+        },
+        "measuringList": [
+            {
+                "key": "pH",
+                "name": "pH",
+                "unit": ""
+            },
+            {
+                "key": "COD",
+                "name": "COD",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Temp",
+                "name": "Temp",
+                "unit": "oC"
+            },
+            {
+                "key": "DO",
+                "name": "DO",
+                "unit": "mg/l"
+            },
+            {
+                "key": "EC",
+                "name": "EC",
+                "unit": "uS/cm"
+            },
+            {
+                "key": "Phenol",
+                "name": "Phenol",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Zn",
+                "name": "Zn",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cd",
+                "name": "Cd",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cr",
+                "name": "Cr",
+                "unit": "mg/l"
+            },
+            {
+                "key": "TDS",
+                "name": "TDS",
+                "unit": ""
+            },
+            {
+                "key": "NO3_N",
+                "name": "NO3_N",
+                "unit": "mg/l"
+            },
+            {
+                "key": "NO2_N",
+                "name": "NO2_N",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Coliform",
+                "name": "Coliform",
+                "unit": "mpn/100ml"
+            },
+            {
+                "key": "Cl_",
+                "name": "Cl_",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Fe",
+                "name": "Fe",
+                "unit": "mg/l"
+            },
+            {
+                "key": "PO43_",
+                "name": "PO43-",
+                "unit": ""
+            },
+            {
+                "key": "F_",
+                "name": "F_",
+                "unit": ""
+            },
+            {
+                "key": "Hg",
+                "name": "Hg",
+                "unit": "mg/l"
+            },
+            {
+                "key": "As",
+                "name": "As",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cu",
+                "name": "Cu",
+                "unit": "mg/l"
+            },
+            {
+                "key": "BOD",
+                "name": "BOD",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cr6",
+                "name": "Cr6+",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Ni",
+                "name": "Ni",
+                "unit": ""
+            },
+            {
+                "key": "Pb",
+                "name": "Pb",
+                "unit": "mg/l"
+            }
+        ],
+        "active": true,
+        "lastLog": {
+            "receivedAt": "2022-08-04T08:18:46.226Z",
+            "measuringLogs": {
+                "pH": {
+                    "key": "pH",
+                    "value": 6.3,
+                    "textValue": "6.3"
+                },
+                "COD": {
+                    "key": "COD",
+                    "value": 1.2,
+                    "textValue": "1.2"
+                },
+                "DO": {
+                    "key": "DO",
+                    "value": 4.3,
+                    "textValue": "4.3"
+                },
+                "EC": {
+                    "key": "EC",
+                    "value": 0.193,
+                    "textValue": "0.193"
+                },
+                "Phenol": {
+                    "key": "Phenol",
+                    "value": 0.059399999999999994,
+                    "textValue": "<0.06"
+                },
+                "Zn": {
+                    "key": "Zn",
+                    "value": 0.01,
+                    "textValue": "0.01"
+                },
+                "Cd": {
+                    "key": "Cd",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "Cr": {
+                    "key": "Cr",
+                    "value": 0.00594,
+                    "textValue": "<0.006"
+                },
+                "TDS": {
+                    "key": "TDS",
+                    "value": 92,
+                    "textValue": "92"
+                },
+                "NO3_N": {
+                    "key": "NO3_N",
+                    "value": 1.1,
+                    "textValue": "1.1"
+                },
+                "NO2_N": {
+                    "key": "NO2_N",
+                    "value": 0.002,
+                    "textValue": "0.002"
+                },
+                "Coliform": {
+                    "key": "Coliform",
+                    "value": 0.99,
+                    "textValue": "<1"
+                },
+                "Cl_": {
+                    "key": "Cl_",
+                    "value": 24.9,
+                    "textValue": "24.9"
+                },
+                "Fe": {
+                    "key": "Fe",
+                    "value": 0.03,
+                    "textValue": "0.03"
+                },
+                "PO43_": {
+                    "key": "PO43_",
+                    "value": 0.009899999999999999,
+                    "textValue": "<0.01"
+                },
+                "Hg": {
+                    "key": "Hg",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "As": {
+                    "key": "As",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "Cu": {
+                    "key": "Cu",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "Cr6": {
+                    "key": "Cr6",
+                    "value": 0.0007920000000000001,
+                    "textValue": "<0.0008"
+                }
+            }
+        },
+        "stationTypeId": "621c92fc2f6ecb001c7eeee4",
+        "userResponsible": "Nguyen Minh Tri",
+        "userSupervisor": "Phan Thanh Tung",
+        "stationType": {
+            "_id": "621c92fc2f6ecb001c7eeee4",
+            "key": "TRAM_DINH_KY",
+            "name": "Nước dưới đất",
+            "isAuto": false,
+            "updatedAt": "2022-10-24T08:18:20.842Z",
+            "createdAt": "2022-02-28T09:16:44.323Z",
+            "__v": 0,
+            "icon": "",
+            "color": "#8877dd",
+            "numericalOrder": 100
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "625e31d6d96a5a3bbe6b1ced",
+        "key": "BD21",
+        "name": "KCN VISIP I",
+        "address": "Binh Duong, Viet Nam",
+        "isUsed": false,
+        "mapLocation": {
+            "lat": 11.127861111111113,
+            "lng": 106.71583333333334
+        },
+        "measuringList": [
+            {
+                "key": "pH",
+                "name": "pH",
+                "unit": ""
+            },
+            {
+                "key": "COD",
+                "name": "COD",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Temp",
+                "name": "Temp",
+                "unit": "oC"
+            },
+            {
+                "key": "DO",
+                "name": "DO",
+                "unit": "mg/l"
+            },
+            {
+                "key": "EC",
+                "name": "EC",
+                "unit": "uS/cm"
+            },
+            {
+                "key": "Phenol",
+                "name": "Phenol",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Zn",
+                "name": "Zn",
+                "unit": "mg/l"
+            }
+        ],
+        "active": true,
+        "lastLog": {
+            "receivedAt": "2022-08-04T08:15:25.423Z",
+            "measuringLogs": {
+                "pH": {
+                    "key": "pH",
+                    "value": 5.2,
+                    "textValue": "5.2"
+                },
+                "COD": {
+                    "key": "COD",
+                    "value": 1.6,
+                    "textValue": "1.6"
+                },
+                "DO": {
+                    "key": "DO",
+                    "value": 4.1,
+                    "textValue": "4.1"
+                },
+                "EC": {
+                    "key": "EC",
+                    "value": 0.02,
+                    "textValue": "0.02"
+                },
+                "Phenol": {
+                    "key": "Phenol",
+                    "value": 0.059399999999999994,
+                    "textValue": "<0.06"
+                },
+                "Zn": {
+                    "key": "Zn",
+                    "value": 0.08,
+                    "textValue": "0.08"
+                }
+            }
+        },
+        "stationTypeId": "621c92fc2f6ecb001c7eeee4",
+        "longVn2000": null,
+        "stationType": {
+            "_id": "621c92fc2f6ecb001c7eeee4",
+            "key": "TRAM_DINH_KY",
+            "name": "Nước dưới đất",
+            "isAuto": false,
+            "updatedAt": "2022-10-24T08:18:20.842Z",
+            "createdAt": "2022-02-28T09:16:44.323Z",
+            "__v": 0,
+            "icon": "",
+            "color": "#8877dd",
+            "numericalOrder": 100
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "62e9e8d8b01bbe4d608aea2f",
+        "key": "H11_N_TT",
+        "name": "Hồ Ô Tà Sóc",
+        "address": "Huyện Tri Tôn, An Giang, Việt Nam",
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 10.4595,
+            "lng": 104.9401
+        },
+        "measuringList": [
+            {
+                "key": "Temp",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Nhiệt độ",
+                "unit": "oC"
+            },
+            {
+                "key": "pH",
+                "isApplyQCVN": true,
+                "minLimit": 6,
+                "maxLimit": 8.5,
+                "name": "pH nhà tui",
+                "unit": ""
+            },
+            {
+                "key": "DO",
+                "isApplyQCVN": true,
+                "minLimit": null,
+                "maxLimit": 5,
+                "name": "DO",
+                "unit": "mg/l"
+            },
+            {
+                "key": "EC",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "EC",
+                "unit": "uS/cm"
+            },
+            {
+                "key": "TDS",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "TDS",
+                "unit": ""
+            },
+            {
+                "key": "NaCl",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "NaCl",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Turbidity",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Turbidity - Độ đục",
+                "unit": ""
+            },
+            {
+                "key": "NO3_N",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "NO3_N",
+                "unit": "mg/l"
+            },
+            {
+                "key": "NO2_N",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "NO2_N",
+                "unit": "mg/l"
+            },
+            {
+                "key": "NH3_N",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "NH3-N",
+                "unit": "mg/l"
+            },
+            {
+                "key": "SS",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "SS",
+                "unit": "mg/l"
+            },
+            {
+                "key": "COD",
+                "isApplyQCVN": true,
+                "maxLimit": 15,
+                "name": "COD",
+                "unit": "mg/l"
+            },
+            {
+                "key": "BOD",
+                "isApplyQCVN": true,
+                "minLimit": null,
+                "maxLimit": 6,
+                "name": "BOD",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Coliform",
+                "isApplyQCVN": true,
+                "maxLimit": 5000,
+                "name": "Coliform",
+                "unit": "mpn/100ml"
+            },
+            {
+                "key": "Cl_",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Cl_",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Fe",
+                "isApplyQCVN": true,
+                "maxLimit": 1,
+                "name": "Fe",
+                "unit": "mg/l"
+            },
+            {
+                "key": "PO43_",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "PO43-",
+                "unit": "mg/L"
+            },
+            {
+                "key": "F_",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "F_",
+                "unit": ""
+            },
+            {
+                "key": "Hg",
+                "isApplyQCVN": true,
+                "maxLimit": 0.001,
+                "name": "Hg",
+                "unit": "mg/l"
+            },
+            {
+                "key": "As",
+                "isApplyQCVN": true,
+                "maxLimit": 0.02,
+                "name": "As",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cu",
+                "isApplyQCVN": true,
+                "maxLimit": 0.2,
+                "name": "Cu",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Zn",
+                "isApplyQCVN": true,
+                "maxLimit": 1,
+                "name": "Zn",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cr_3",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Cr+3",
+                "unit": ""
+            },
+            {
+                "key": "Cr6",
+                "isApplyQCVN": true,
+                "maxLimit": 0.02,
+                "name": "Cr6+",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Ni",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Ni",
+                "unit": ""
+            },
+            {
+                "key": "Pb",
+                "isApplyQCVN": true,
+                "maxLimit": 0.02,
+                "name": "Pb",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Cd",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Cd",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Phenol",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Phenol",
+                "unit": "mg/l"
+            },
+            {
+                "key": "xyanua",
+                "isApplyQCVN": true,
+                "maxLimit": 0.05,
+                "name": "xyanua",
+                "unit": "mg/l"
+            },
+            {
+                "key": "Dieldrin",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Dieldrin",
+                "unit": "µg/l"
+            },
+            {
+                "key": "Aldrin",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Aldrin",
+                "unit": "µg/l"
+            },
+            {
+                "key": "Heptachlor_Heptachlorepoxide",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Heptachlor & Heptachlorepoxide",
+                "unit": "µg/l"
+            },
+            {
+                "key": "DDTs",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "DDTs",
+                "unit": "µg/l"
+            }
+        ],
+        "active": false,
+        "lastLog": {
+            "measuringLogs": {
+                "Temp": {
+                    "unit": "oC",
+                    "value": 26.4,
+                    "textValue": "26.4"
+                },
+                "pH": {
+                    "unit": "",
+                    "value": 6.2,
+                    "textValue": "6.2"
+                },
+                "DO": {
+                    "unit": "mg/l",
+                    "value": 3.8,
+                    "textValue": "3.8"
+                },
+                "EC": {
+                    "unit": "uS/cm",
+                    "value": 136,
+                    "textValue": "136"
+                },
+                "TDS": {
+                    "unit": "",
+                    "value": 79.8,
+                    "textValue": "79.8"
+                },
+                "NaCl": {
+                    "unit": "mg/l",
+                    "value": 0.007,
+                    "textValue": "0.007"
+                },
+                "Turbidity": {
+                    "unit": "",
+                    "value": 25,
+                    "textValue": "25"
+                },
+                "NO3_N": {
+                    "unit": "mg/l",
+                    "value": 2.5,
+                    "textValue": "2.5"
+                },
+                "NO2_N": {
+                    "unit": "mg/l",
+                    "value": 0.166,
+                    "textValue": "0.166"
+                },
+                "NH3_N": {
+                    "unit": "mg/l",
+                    "value": 1.78,
+                    "textValue": "1.78"
+                },
+                "SS": {
+                    "unit": "mg/l",
+                    "value": 16,
+                    "textValue": "16"
+                },
+                "COD": {
+                    "unit": "mg/l",
+                    "value": 10,
+                    "textValue": "10"
+                },
+                "BOD": {
+                    "unit": "mg/l",
+                    "value": 5,
+                    "textValue": "5"
+                },
+                "Coliform": {
+                    "unit": "mpn/100ml",
+                    "value": 2100,
+                    "textValue": "2100"
+                },
+                "Cl_": {
+                    "unit": "mg/l",
+                    "value": 19.1,
+                    "textValue": "19.1"
+                },
+                "Fe": {
+                    "unit": "mg/l",
+                    "value": 0.85,
+                    "textValue": "0.85"
+                },
+                "PO43_": {
+                    "unit": "mg/L",
+                    "value": 0.059399999999999994,
+                    "textValue": "<0.06"
+                },
+                "F_": {
+                    "unit": "",
+                    "value": 0.03,
+                    "textValue": "0.03"
+                },
+                "Hg": {
+                    "unit": "mg/l",
+                    "value": 0.00029699999999999996,
+                    "textValue": "<0.0003"
+                },
+                "As": {
+                    "unit": "mg/l",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "Cu": {
+                    "unit": "mg/l",
+                    "value": 0.029699999999999997,
+                    "textValue": "<0.03"
+                },
+                "Zn": {
+                    "unit": "mg/l",
+                    "value": 0.02,
+                    "textValue": "0.02"
+                },
+                "Cr_3": {
+                    "unit": "",
+                    "value": 0.004,
+                    "textValue": "0.004"
+                },
+                "Cr6": {
+                    "unit": "mg/l",
+                    "value": 0.00297,
+                    "textValue": "<0.003"
+                },
+                "Ni": {
+                    "unit": "",
+                    "value": 0.03,
+                    "textValue": "0.03"
+                },
+                "Pb": {
+                    "unit": "mg/l",
+                    "value": 0.003,
+                    "textValue": "0.003"
+                },
+                "Cd": {
+                    "unit": "mg/l",
+                    "value": 0.00009900000000000001,
+                    "textValue": "<0.0001"
+                },
+                "Nitrate": {
+                    "unit": "mg/l",
+                    "value": 0.00099,
+                    "textValue": "<0.001"
+                },
+                "Phenol": {
+                    "unit": "mg/l",
+                    "value": 0.002,
+                    "textValue": "0.002"
+                },
+                "xyanua": {
+                    "unit": "mg/l",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "Dieldrin": {
+                    "unit": "µg/l",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "Aldrin": {
+                    "unit": "µg/l",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "Heptachlor_Heptachlorepoxide": {
+                    "unit": "µg/l",
+                    "value": 0.0049499999999999995,
+                    "textValue": "<0.005"
+                },
+                "DDTs": {
+                    "unit": "µg/l",
+                    "value": null,
+                    "textValue": ""
+                }
+            },
+            "receivedAt": "2022-08-03T01:00:00.000Z"
+        },
+        "stationTypeId": "5ff66e3b256391001b8cdc40",
+        "qcvnId": "5f4e09229cef930011dc0be5",
+        "provinceId": "623a9e7164d693001cde2e89",
+        "qcvn": {
+            "_id": "5f4e09229cef930011dc0be5",
+            "key": "QCVN 08-MT:2015/BTNMT ",
+            "name": "Quy chuẩn về chất lượng nước mặt",
+            "measuringList": [
+                {
+                    "unit": "",
+                    "maxLimit": 8.5,
+                    "minLimit": 6,
+                    "name": "pH",
+                    "key": "pH",
+                    "rowKey": "pH"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 6,
+                    "minLimit": null,
+                    "name": "BOD",
+                    "key": "BOD",
+                    "rowKey": "BOD"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 15,
+                    "name": "COD",
+                    "key": "COD",
+                    "rowKey": "COD"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 5,
+                    "minLimit": null,
+                    "name": "DO",
+                    "key": "DO",
+                    "rowKey": "DO"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 100,
+                    "name": "TSS",
+                    "key": "TSS",
+                    "rowKey": "TSS"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.3,
+                    "name": "Amoni",
+                    "key": "Amoni",
+                    "rowKey": "Amoni"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 5,
+                    "name": "Nitrat",
+                    "key": "Nitrate",
+                    "rowKey": "Nitrate"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.2,
+                    "name": "Photphates",
+                    "key": "Photphates",
+                    "rowKey": "Photphates"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.05,
+                    "name": "xyanua",
+                    "key": "xyanua",
+                    "rowKey": "xyanua"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "As",
+                    "key": "As",
+                    "rowKey": "As"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "Pb",
+                    "key": "Pb",
+                    "rowKey": "Pb"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.02,
+                    "name": "Cr6+",
+                    "key": "Cr6",
+                    "rowKey": "Cr6"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.2,
+                    "name": "Cu",
+                    "key": "Cu",
+                    "rowKey": "Cu"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 1,
+                    "name": "Zn",
+                    "key": "Zn",
+                    "rowKey": "Zn"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 0.001,
+                    "name": "Hg",
+                    "key": "Hg",
+                    "rowKey": "Hg"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 1,
+                    "name": "Fe",
+                    "key": "Fe",
+                    "rowKey": "Fe"
+                },
+                {
+                    "unit": "",
+                    "name": "TOC",
+                    "key": "TOC",
+                    "rowKey": "TOC"
+                },
+                {
+                    "unit": "mpn/100ml",
+                    "maxLimit": 5000,
+                    "name": "Coliform",
+                    "key": "Coliform",
+                    "rowKey": "Coliform"
+                },
+                {
+                    "unit": "mg/l",
+                    "maxLimit": 50,
+                    "name": "Ecoli",
+                    "key": "Ecoli",
+                    "rowKey": "Ecoli"
+                }
+            ],
+            "begin": "2016-03-01T02:25:59.601Z",
+            "expired": null,
+            "createdAt": "2020-09-01T08:41:06.107Z",
+            "updatedAt": "2022-09-12T07:29:33.686Z"
+        },
+        "stationType": {
+            "_id": "5ff66e3b256391001b8cdc40",
+            "key": "Nuoc_mat",
+            "name": "Nước mặt",
+            "isAuto": false,
+            "updatedAt": "2022-11-10T07:12:45.168Z",
+            "createdAt": "2021-01-07T02:13:15.093Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/nuoc mat.png",
+            "color": "#9b9b9b",
+            "numericalOrder": 12
+        },
+        "province": {
+            "_id": "623a9e7164d693001cde2e89",
+            "key": "33",
+            "name": "Tỉnh Hòa Bình",
+            "numericalOrder": 100,
+            "updatedAt": "2023-07-06T07:09:18.139Z",
+            "createdAt": "2022-03-23T04:13:37.211Z"
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "62eb74dfb01bbe4cc98aea5d",
+        "key": "CN1",
+        "name": "Công ty Wimbledon",
+        "address": "Binh Duong, Viet Nam",
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 10.893611,
+            "lng": 106.756944
+        },
+        "measuringList": [
+            {
+                "key": "ITSP",
+                "isApplyQCVN": true,
+                "maxLimit": 300,
+                "name": "Tổng bụi lơ lửng",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "ICO",
+                "isApplyQCVN": true,
+                "maxLimit": 30000,
+                "name": "ICO",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "ISO2",
+                "isApplyQCVN": true,
+                "maxLimit": 350,
+                "name": "SO2",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "INO2",
+                "isApplyQCVN": true,
+                "maxLimit": 200,
+                "name": "INO2",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "Temp",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Nhiệt độ",
+                "unit": "oC"
+            },
+            {
+                "key": "Do_Am",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Độ ẩm",
+                "unit": "%"
+            },
+            {
+                "key": "Huong_Gio",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Wind direction",
+                "unit": "o"
+            },
+            {
+                "key": "MWindSpeed",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "WindSpeed",
+                "unit": "m/s"
+            },
+            {
+                "key": "IO3",
+                "isApplyQCVN": true,
+                "maxLimit": 200,
+                "name": "O3",
+                "unit": "ug/m3"
+            }
+        ],
+        "active": true,
+        "lastLog": {
+            "measuringLogs": {
+                "Temp": {
+                    "unit": "oC",
+                    "value": 29.8,
+                    "textValue": "29.8"
+                },
+                "ISO2": {
+                    "unit": "ug/m3",
+                    "value": 9.9,
+                    "textValue": "<10"
+                },
+                "ICO": {
+                    "unit": "ug/m3",
+                    "value": 2.475,
+                    "textValue": "<2.500"
+                },
+                "INO2": {
+                    "unit": "ug/m3",
+                    "value": 13,
+                    "textValue": "13"
+                },
+                "IO3": {
+                    "unit": "ug/m3",
+                    "value": 11.5,
+                    "textValue": "11.5"
+                },
+                "IPM10": {
+                    "unit": "ug/m3",
+                    "value": null,
+                    "textValue": ""
+                },
+                "ITSP": {
+                    "unit": "ug/m3",
+                    "value": null,
+                    "textValue": ""
+                },
+                "Do_Am": {
+                    "unit": "%",
+                    "value": 50.5,
+                    "textValue": "50.5"
+                },
+                "Huong_Gio": {
+                    "unit": "o",
+                    "value": null,
+                    "textValue": "Đông Bắc"
+                },
+                "MWindSpeed": {
+                    "unit": "m/s",
+                    "value": null,
+                    "textValue": "0.8-1.6"
+                }
+            },
+            "receivedAt": "2022-08-04T07:00:00.000Z"
+        },
+        "stationTypeId": "5ffd49d55290b4001b60fee1",
+        "qcvnId": "5f4e14669cef930011dc0c2c",
+        "provinceId": "623a9e7164d693001cde2e89",
+        "qcvn": {
+            "_id": "5f4e14669cef930011dc0c2c",
+            "key": "QCVN 05:2013/BTNMT",
+            "name": "Quy chuẩn về chất lượng không khí",
+            "measuringList": [
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 350,
+                    "name": "SO2",
+                    "key": "ISO2",
+                    "rowKey": "ISO2"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 30000,
+                    "name": "ICO",
+                    "key": "ICO",
+                    "rowKey": "ICO"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 200,
+                    "name": "INO2",
+                    "key": "INO2",
+                    "rowKey": "INO2"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 200,
+                    "name": "O3",
+                    "key": "IO3",
+                    "rowKey": "IO3"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 300,
+                    "name": "Tổng bụi lơ lửng",
+                    "key": "ITSP",
+                    "rowKey": "ITSP"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 150,
+                    "name": "PM2_5",
+                    "key": "IPM2",
+                    "rowKey": "IPM2"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 150,
+                    "name": "PM10",
+                    "key": "IPM10",
+                    "rowKey": "IPM10"
+                },
+                {
+                    "rowKey": "COD",
+                    "key": "COD",
+                    "name": "COD",
+                    "unit": "mg/l"
+                }
+            ],
+            "begin": "2013-10-25T10:16:02.144Z",
+            "expired": null,
+            "createdAt": "2020-09-01T09:29:10.856Z",
+            "updatedAt": "2022-09-12T09:03:48.150Z"
+        },
+        "stationType": {
+            "_id": "5ffd49d55290b4001b60fee1",
+            "key": "khong_khi",
+            "name": "Không khí xung quanh",
+            "isAuto": false,
+            "updatedAt": "2022-07-11T07:00:33.291Z",
+            "createdAt": "2021-01-12T07:03:49.856Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/khong khi.png",
+            "color": "#87d068",
+            "numericalOrder": 100
+        },
+        "province": {
+            "_id": "623a9e7164d693001cde2e89",
+            "key": "33",
+            "name": "Tỉnh Hòa Bình",
+            "numericalOrder": 100,
+            "updatedAt": "2023-07-06T07:09:18.139Z",
+            "createdAt": "2022-03-23T04:13:37.211Z"
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "62eb757fb01bbe16148aea5e",
+        "key": "CN2",
+        "name": "Công ty Victory",
+        "address": "Binh Duong, Viet Nam",
+        "isUsed": true,
+        "mapLocation": {
+            "lat": 10.973333,
+            "lng": 106.721389
+        },
+        "measuringList": [
+            {
+                "key": "ITSP",
+                "isApplyQCVN": true,
+                "maxLimit": 300,
+                "name": "Tổng bụi lơ lửng",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "ICO",
+                "isApplyQCVN": true,
+                "maxLimit": 30000,
+                "name": "ICO",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "ISO2",
+                "isApplyQCVN": true,
+                "maxLimit": 350,
+                "name": "SO2",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "INO2",
+                "isApplyQCVN": true,
+                "maxLimit": 200,
+                "name": "INO2",
+                "unit": "ug/m3"
+            },
+            {
+                "key": "Temp",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Nhiệt độ",
+                "unit": "oC"
+            },
+            {
+                "key": "Do_Am",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Độ ẩm",
+                "unit": "%"
+            },
+            {
+                "key": "Huong_Gio",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "Wind direction",
+                "unit": "o"
+            },
+            {
+                "key": "MWindSpeed",
+                "isApplyQCVN": false,
+                "minLimit": null,
+                "maxLimit": null,
+                "name": "WindSpeed",
+                "unit": "m/s"
+            },
+            {
+                "key": "IO3",
+                "isApplyQCVN": true,
+                "maxLimit": 200,
+                "name": "O3",
+                "unit": "ug/m3"
+            }
+        ],
+        "active": true,
+        "lastLog": {
+            "measuringLogs": {
+                "Temp": {
+                    "unit": "oC",
+                    "value": 25.5,
+                    "textValue": "25.5"
+                },
+                "ISO2": {
+                    "unit": "ug/m3",
+                    "value": 9.9,
+                    "textValue": "<10"
+                },
+                "ICO": {
+                    "unit": "ug/m3",
+                    "value": 2.475,
+                    "textValue": "<2.500"
+                },
+                "INO2": {
+                    "unit": "ug/m3",
+                    "value": 34,
+                    "textValue": "34"
+                },
+                "IO3": {
+                    "unit": "ug/m3",
+                    "value": 32.5,
+                    "textValue": "32.5"
+                },
+                "IPM10": {
+                    "unit": "ug/m3",
+                    "value": null,
+                    "textValue": ""
+                },
+                "ITSP": {
+                    "unit": "ug/m3",
+                    "value": null,
+                    "textValue": ""
+                },
+                "Do_Am": {
+                    "unit": "%",
+                    "value": 51.4,
+                    "textValue": "51.4"
+                },
+                "Huong_Gio": {
+                    "unit": "o",
+                    "value": null,
+                    "textValue": "Tây Tây Bắc"
+                },
+                "MWindSpeed": {
+                    "unit": "m/s",
+                    "value": null,
+                    "textValue": "0.4-0.9"
+                }
+            },
+            "receivedAt": "2022-08-04T07:00:00.000Z"
+        },
+        "stationTypeId": "5ffd49d55290b4001b60fee1",
+        "qcvnId": "5f4e14669cef930011dc0c2c",
+        "qcvn": {
+            "_id": "5f4e14669cef930011dc0c2c",
+            "key": "QCVN 05:2013/BTNMT",
+            "name": "Quy chuẩn về chất lượng không khí",
+            "measuringList": [
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 350,
+                    "name": "SO2",
+                    "key": "ISO2",
+                    "rowKey": "ISO2"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 30000,
+                    "name": "ICO",
+                    "key": "ICO",
+                    "rowKey": "ICO"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 200,
+                    "name": "INO2",
+                    "key": "INO2",
+                    "rowKey": "INO2"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 200,
+                    "name": "O3",
+                    "key": "IO3",
+                    "rowKey": "IO3"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 300,
+                    "name": "Tổng bụi lơ lửng",
+                    "key": "ITSP",
+                    "rowKey": "ITSP"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 150,
+                    "name": "PM2_5",
+                    "key": "IPM2",
+                    "rowKey": "IPM2"
+                },
+                {
+                    "unit": "ug/m3",
+                    "maxLimit": 150,
+                    "name": "PM10",
+                    "key": "IPM10",
+                    "rowKey": "IPM10"
+                },
+                {
+                    "rowKey": "COD",
+                    "key": "COD",
+                    "name": "COD",
+                    "unit": "mg/l"
+                }
+            ],
+            "begin": "2013-10-25T10:16:02.144Z",
+            "expired": null,
+            "createdAt": "2020-09-01T09:29:10.856Z",
+            "updatedAt": "2022-09-12T09:03:48.150Z"
+        },
+        "stationType": {
+            "_id": "5ffd49d55290b4001b60fee1",
+            "key": "khong_khi",
+            "name": "Không khí xung quanh",
+            "isAuto": false,
+            "updatedAt": "2022-07-11T07:00:33.291Z",
+            "createdAt": "2021-01-12T07:03:49.856Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/khong khi.png",
+            "color": "#87d068",
+            "numericalOrder": 100
+        },
+        "status": "GOOD"
+    },
+    {
+        "_id": "6399343dc97061295fcbbb1d",
+        "key": "gas",
+        "name": "Gas",
+        "isUsed": false,
+        "mapLocation": {
+            "lat": -6.088908,
+            "lng": 52.995056
+        },
+        "measuringList": [
+            {
+                "key": "Cr6",
+                "name": "Cr6+",
+                "unit": "mg/l"
+            }
+        ],
+        "active": true,
+        "stationTypeId": "6343c322825689001cf0184b",
+        "stationType": {
+            "_id": "6343c322825689001cf0184b",
+            "key": "NUOCTHAI_DINHKY",
+            "name": "Nước thải",
+            "isAuto": false,
+            "updatedAt": "2022-10-24T08:18:41.086Z",
+            "createdAt": "2022-10-10T07:00:50.971Z",
+            "__v": 0,
+            "icon": "",
+            "color": "",
+            "numericalOrder": 12
+        },
+        "status": "NOT_USE"
+    },
+    {
+        "_id": "6399347dc97061272ccbbb1e",
+        "key": "Spain",
+        "name": "Spain",
+        "isUsed": false,
+        "mapLocation": {
+            "lat": 2.0363826843133546,
+            "lng": 41.389289235278895
+        },
+        "measuringList": [
+            {
+                "key": "pv",
+                "name": "Pv",
+                "unit": ""
+            }
+        ],
+        "active": true,
+        "stationTypeId": "5ff66e3b256391001b8cdc40",
+        "stationType": {
+            "_id": "5ff66e3b256391001b8cdc40",
+            "key": "Nuoc_mat",
+            "name": "Nước mặt",
+            "isAuto": false,
+            "updatedAt": "2022-11-10T07:12:45.168Z",
+            "createdAt": "2021-01-07T02:13:15.093Z",
+            "__v": 0,
+            "icon": "/images/icon-station-type/nuoc mat.png",
+            "color": "#9b9b9b",
+            "numericalOrder": 12
+        },
+        "status": "NOT_USE"
+    },
+    {
+        "_id": "63993765c970613743cbbb1f",
+        "key": "inc",
+        "name": "Monitoring Solutions, Inc",
+        "isUsed": false,
+        "mapLocation": {
+            "lat": -74.97358253104709,
+            "lng": 40.637671326591814
+        },
+        "measuringList": [
+            {
+                "key": "total_flow",
+                "name": "Total Flow",
+                "unit": ""
+            }
+        ],
+        "active": true,
+        "stationTypeId": "621c92fc2f6ecb001c7eeee4",
+        "stationType": {
+            "_id": "621c92fc2f6ecb001c7eeee4",
+            "key": "TRAM_DINH_KY",
+            "name": "Nước dưới đất",
+            "isAuto": false,
+            "updatedAt": "2022-10-24T08:18:20.842Z",
+            "createdAt": "2022-02-28T09:16:44.323Z",
+            "__v": 0,
+            "icon": "",
+            "color": "#8877dd",
+            "numericalOrder": 100
+        },
+        "status": "NOT_USE"
+    },
+    {
+        "_id": "6399378ec970613803cbbb20",
+        "key": "sas",
+        "name": "Sinduly SAS",
+        "isUsed": false,
+        "mapLocation": {
+            "lat": -74.02680596220884,
+            "lng": 4.732447411432157
+        },
+        "measuringList": [
+            {
+                "key": "total_flow",
+                "name": "Total Flow",
+                "unit": ""
+            }
+        ],
+        "active": true,
+        "stationTypeId": "6343c322825689001cf0184b",
+        "stationType": {
+            "_id": "6343c322825689001cf0184b",
+            "key": "NUOCTHAI_DINHKY",
+            "name": "Nước thải",
+            "isAuto": false,
+            "updatedAt": "2022-10-24T08:18:41.086Z",
+            "createdAt": "2022-10-10T07:00:50.971Z",
+            "__v": 0,
+            "icon": "",
+            "color": "",
+            "numericalOrder": 12
+        },
+        "status": "NOT_USE"
+    },
+    {
+        "_id": "639937e2c970613974cbbb21",
+        "key": "tld",
+        "name": "Process Environmental Engineering (Tianjin) Ltd",
+        "isUsed": false,
+        "mapLocation": {
+            "lat": 16.8519553388808,
+            "lng": 39.20213888604853
+        },
+        "measuringList": [
+            {
+                "key": "water_level",
+                "name": "Mực nước",
+                "unit": "m"
+            }
+        ],
+        "active": true,
+        "stationTypeId": "6343c322825689001cf0184b",
+        "stationType": {
+            "_id": "6343c322825689001cf0184b",
+            "key": "NUOCTHAI_DINHKY",
+            "name": "Nước thải",
+            "isAuto": false,
+            "updatedAt": "2022-10-24T08:18:41.086Z",
+            "createdAt": "2022-10-10T07:00:50.971Z",
+            "__v": 0,
+            "icon": "",
+            "color": "",
+            "numericalOrder": 12
+        },
+        "status": "NOT_USE"
+    }
+]
