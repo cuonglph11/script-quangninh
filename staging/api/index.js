@@ -16,7 +16,8 @@ const ENDPOINT = {
     CREATE_STATION: `${BASE_URL.DEMO}/station-fixed/station-periodic/`,
     DELETE_IMPORTED_DATA: `${BASE_URL.QUANGNINH}/station-fixed/report`,
     // DELETE_IMPORTED_DATA: `${BASE_URL.DEMO}/station-fixed/report`
-    IMPORT_DATA: `${BASE_URL.QUANGNINH}/station-fixed/report`
+    IMPORT_DATA: `${BASE_URL.QUANGNINH}/station-fixed/report`,
+    IMPORT_DATA_DEMO: `${BASE_URL.DEMO}/station-fixed/report`,
 }
 
 const getAllStationsFromQN = () => {
@@ -73,6 +74,8 @@ const deleteImportedData = reportIds => {
 
 }
 const addOneStation = payload => {
+    // console.log(payload,'payloadpayload')
+    // return postFetchDemo(ENDPOINT.IMPORT_DATA_DEMO, payload)
     return postFetchQuangNinh(ENDPOINT.IMPORT_DATA, payload)
 }
 module.exports = {
