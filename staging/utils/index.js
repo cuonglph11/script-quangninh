@@ -186,7 +186,7 @@ const convertData = data => {
     });
     return updatedData
 }
-function transformReceivedAt(data) {
+function transformReceivedAtOneStation(data) {
     const transformedData = [];
     const transformedValues = new Set();
 
@@ -214,8 +214,38 @@ function transformReceivedAt(data) {
 
     return transformedData;
 }
+const transformReceivedAt = data =>{
+    const groupedDataByStation = groupBy(data,"collectionName")
 
+    let result =[]
+    for(collectionName in groupedDataByStation){
+        // console.log({collectionName});
+        const transformedStation = transformReceivedAtOneStation(groupedDataByStation[collectionName])
+        // console.log(transformedStation,'transformedStation');
+        result=  result.concat(transformedStation)
+    }
+    // console.log(result);
+    return result
+}
 
+function groupBy(arr, key) {
+    return arr.reduce((result, obj) => {
+      // Get the value of the key for the current object
+      const keyValue = obj[key];
+      
+      // Check if the key already exists in the result object
+      if (!result[keyValue]) {
+        // If it doesn't exist, create a new array for that key
+        result[keyValue] = [];
+      }
+      
+      // Push the current object into the array corresponding to the key
+      result[keyValue].push(obj);
+      
+      return result;
+    }, {});
+  }
+  
 
 
 

@@ -53,6 +53,15 @@ function hasDuplicates(array, fieldToCheck) {
     return false;
 }
 
+/**
+ * DEBUG
+ */
+
+const get458Data = ()=>{
+    const result = dataToAdd.filter(d=>d.collectionName==="data-station-fixed-nn_nuocsachqn_458")
+    fs.writeFileSync("data458.json",JSON.stringify(result))
+}
+
 
 
 
@@ -63,6 +72,9 @@ function hasDuplicates(array, fieldToCheck) {
 const addData = async (data) => {
     // console.log("Start convert")
     const updatedData = convertData(data)
+    // console.log(updatedData,'updatedDataupdatedData');
+    // const data458 = updatedData.filter(d=>d.stationId==="5f504df6beee1b001220b6d2")
+    // fs.writeFileSync("debug.json",JSON.stringify(data458))
     // console.log("Convert done")
     // fs.writeFileSync("output.json",JSON.stringify(updatedData))
     // console.log(updatedData[700])
